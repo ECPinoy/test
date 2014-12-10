@@ -25,11 +25,12 @@ function test(data) {
         API.chatLog("Mehs To Skip: "+JSON.stringify(d),1);
     }
     if (command == "/best"){
-        API.sendChat("donvoo Is The Best!");
+        API.sendChat("donvoo is pretty cool, but have you heard of ECPinoy?");
     }
     if (command == "/madeby"){
         API.chatLog("This Script Was Made By donvoo <---(Very Sexy, 10/10)",1);
-        API.chatLog("Document Made By DJ_YoloSwaggins33",1)
+        API.chatLog("Document Made By DJ_YoloSwaggins33",1);
+        API.chatLog("Edited By: ECPinoy (10x Better than the above scrubs)",1)
     }
     if (command == "/cmd"){
         API.chatLog("Commands: /meh, /madeby, /best, /Rick, /Website, /Ship, /babe, and /cmd",1);
@@ -40,6 +41,9 @@ function test(data) {
     }
     if (command == "/set"){
         seto =  prompt("What Would You Like To Text To Be?")
+    }
+    if (command == "/ECPinoy"){
+        api.sendchat("<--- This guy's the best")
     }
     if (command == "/Rick"){
         window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
@@ -78,11 +82,11 @@ function test(data) {
         var P1 = prompt("Who Will Do The Killing?")
         var P2 = prompt("Who Will Get Killed?")
         if (matho > 5 ){
-        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used o On "+P2+" ...It's Super Effective!... "+P2+" Faints!")
+        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used a Nitrogen Bomb On "+P2+" ...It's Super Effective!... "+P2+" Faints!")
         }
         if (matho < 5)
         {
-        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used o On "+P2+" ...It's Not Very Effective!... "+P1+" Faints From Shame!")
+        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used Galactic Warhammer On "+P2+" ...It's Not Very Effective!... "+P1+" Faints From Shame!")
         }
         else{API.sendChat("Battle Failed!")}
         
@@ -102,10 +106,10 @@ function test(data) {
         API.chatLog("Hours: : "+darr,1);
     }
     if (command == "/bassdrop"){
-        API.sendChat(":Basssss: Dropping The Bass In 10! :Basssss:");
+        API.sendChat("Hatsune promotes Kaboom0 in 10");
         setTimeout(basedd,10000)
         function basedd(){
-            API.sendChat(":BassDropped: Bassssss Dropped! :BassDropped:")
+            API.sendChat("http://i.imgur.com/37OhBgD.png")
         }
     }
     if (command == "/bassdropfake"){
