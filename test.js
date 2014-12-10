@@ -82,11 +82,11 @@ function test(data) {
         var P1 = prompt("Who Will Do The Killing?")
         var P2 = prompt("Who Will Get Killed?")
         if (matho > 5 ){
-        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used a Nitrogen Bomb On "+P2+" ...It's Super Effective!... "+P2+" Faints!")
+        API.sendChat (""+P1+" tries to 360 no scope "+P2+" across the map! IT HITS! HEADSHOT!")
         }
         if (matho < 5)
         {
-        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used Galactic Warhammer On "+P2+" ...It's Not Very Effective!... "+P1+" Faints From Shame!")
+        API.sendChat(""+P1+" tries to smoke weed. "+P2+" kicks the blunt out of "+P1"'s hand! "+P1+" runs away crying!")
         }
         else{API.sendChat("Battle Failed!")}
         
