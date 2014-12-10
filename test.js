@@ -1,11 +1,11 @@
-//All this work is donvoo's :3 <insertcopyright> pff
+//All this work is donvoo's :3 <insertcopyright> pff. Edited by ECPinoyto his liking :D
 //Variables
 var b = API.getUsers().length;
 var c = b - 100;
 var cc = c * .10;
 var d = Math.round(cc);
 var a = localStorage.getItem("babe")
-var welcome = "Nightcore Script Running, Go /cmd For Commands"
+var welcome = "ECScript Running, Go /cmd For Commands"
 var ccc = '0';
 var ddd = "nada";
 var eee = "@donvoo";
@@ -106,10 +106,17 @@ function test(data) {
         API.chatLog("Hours: : "+darr,1);
     }
     if (command == "/bassdrop"){
-        API.sendChat("Hatsune promotes Kaboom0 in 10");
+        API.sendChat(":kappagif: Hatsune promotes Kaboom0 in 10 :kappagif:");
         setTimeout(basedd,10000)
         function basedd(){
             API.sendChat("http://i.imgur.com/37OhBgD.png")
+        }
+    }
+        if (command == "/wix"){
+        API.sendChat(":wix1::wix2:");
+        setTimeout(basedd,1)
+        function basedd(){
+            API.sendChat(":wix3::wix4:")
         }
     }
     if (command == "/bassdropfake"){
@@ -124,7 +131,7 @@ function test(data) {
 API.on(API.CHAT, chat);
 function chat(data){
     if (data.message.slice(0,11) == "WhoMyScript" & data.un == "donvoo" ){
-        API.sendChat("I Am donvoo  <3 !")
+        API.sendChat("I Am ECPinoy  :kappa: !")
     }
     if (data.message.slice(0,7) == "@donvoo"){
         if (localStorage.babe) {
