@@ -1,4 +1,4 @@
-//All this work is donvoo's :3 <insertcopyright> pff. Edited by ECPinoyto his liking :D
+//All this work is donvoo's :3 <insertcopyright> pff. Edited by ECPinoy to his liking :D
 //Variables
 var b = API.getUsers().length;
 var c = b - 100;
@@ -81,9 +81,12 @@ function test(data) {
         var matho = Math.random(1) * 10;
         var P1 = prompt("Player 1")
         var P2 = prompt("Player 2")
-        if (matho > 5 ){
+        if (matho = 1 ){
         API.sendChat (""+P1+" tries to 360 no scope "+P2+" across the map! IT HITS! HEADSHOT!")
         }
+          if (matho = 2 ){
+        API.sendChat (""+P1+" tries to hurt "+P2+" using a Maximized Galactic Warframe. "+P2+" was blasted off again!")
+        }/
         if (matho < 5)
         {
         API.sendChat(""+P1+" tries to smoke weed. "+P2+" kicks the blunt out of "+P1"'s hand! "+P1+" runs away crying!")
