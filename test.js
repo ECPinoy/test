@@ -79,8 +79,8 @@ function test(data) {
     }
     if (command == "/battle"){
         var matho = Math.random(1) * 10;
-        var P1 = prompt("Who Will Do The Killing?")
-        var P2 = prompt("Who Will Get Killed?")
+        var P1 = prompt("Player 1")
+        var P2 = prompt("Player 2")
         if (matho > 5 ){
         API.sendChat (""+P1+" tries to 360 no scope "+P2+" across the map! IT HITS! HEADSHOT!")
         }
@@ -196,12 +196,3 @@ function sctrl(user){
     }
     return /Ctrl/i.test(username);
 }
-API.on(API.USER_JOIN,laquit);
-function laquit(user){
-    var username = user.username;
-    if (user.level < 3){
-        API.chatLog("A User Under Lv 3 Has Joined, Name: @"+user.username,1)
-    }
-}
-
-
