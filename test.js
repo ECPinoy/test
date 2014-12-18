@@ -86,10 +86,10 @@ function test(data) {
         }
           if (matho = 2 ){
         API.sendChat (""+P1+" tries to hurt "+P2+" using a Maximized Galactic Warframe. "+P2+" was blasted off again!")
-        }/
+        }
         if (matho < 5)
         {
-        API.sendChat(""+P1+" tries to smoke weed. "+P2+" kicks the blunt out of "+P1"'s hand! "+P1+" runs away crying!")
+        API.sendChat(""+P1+" tries to smoke weed. "+P2+" kicks the blunt out of "+P1+"'s hand! "+P1+" runs away crying!")
         }
         else{API.sendChat("Battle Failed!")}
         
@@ -199,3 +199,4 @@ function sctrl(user){
     }
     return /Ctrl/i.test(username);
 }
+$("<div>list of commands</div>").appendTo("#chat-messages")
