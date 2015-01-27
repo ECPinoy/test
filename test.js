@@ -1,4 +1,4 @@
-//All this work is donvoo's :3 <insertcopyright> pff
+//All this work is donvoo's :3 <insertcopyright> pff. Edited by ECPinoy to his liking :D
 //Variables
 //$('head').append($('<audio id="soundo" src="https://dl-web.dropbox.com/get/FROZEN%20-%20Let%20It%20Go%20Sin00g-along%20-%20Official%20Disney%20HD.wav?_subject_uid=363469932&w=AAAxWrHTO_6IzIpo2vmk5IFL-a--p9xWPS4NCS8RSK0O2g" />'));
 var b = API.getUsers().length;
@@ -30,7 +30,7 @@ function test(data) {
         API.chatLog("Mehs To Skip: "+JSON.stringify(d),1);
     }
     if (command == "/best"){
-        API.sendChat("donvoo Is The Worst!");
+        API.sendChat("donvoo Is The Best, but, have you heard of ECPinoy?");
     }
     if (command == "/madeby"){
         API.chatLog("This Script Was Made By donvoo <---(Very Sexy, 10/10)",1);
@@ -45,7 +45,7 @@ function test(data) {
         API.chatLog("All The Ships!",1)
     }
     if (command == "/Rick"){
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        window.open("swag.moe")
     }
     if (command == "/babe"){
         API.chatLog("Times donvoo Has Been Mentioned: "+localStorage.getItem("babe"),1)
@@ -74,11 +74,11 @@ function test(data) {
         var P1 = prompt("Player 1:")
         var P2 = prompt("Player 2:")
         if (matho > 5 ){
-        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used o On "+P2+" ...It's Super Effective!... "+P2+" Faints!")
+        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used Galactic Warhammer On "+P2+" ...It's Super Effective!... "+P2+" was sent into the next dimension!")
         }
         if (matho < 5)
         {
-        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used o On "+P2+" ...It's Not Very Effective!... "+P1+" Faints From Shame!")
+        API.sendChat("A Wild "+P1+" Appeared... "+P1+" Used Rock Hard John On "+P2+" ...It's Not Very Effective!(and very small)... "+P1+" Faints From Shame!")
         }
         
     }
@@ -135,7 +135,9 @@ function test(data) {
     if (command == "/hito"){
         API.sendChat("（^人^）")
     }
-    
+        if (command == "/fwat"){
+        API.sendChat("(◞≼◉ื≽◟ ;益;◞≼◉ื≽◟)")
+    }
 }
 //Chat Triggers
 API.on(API.CHAT, chat);
@@ -174,10 +176,10 @@ function chat(data){
 //Final Song Score (WIP)
 API.on(API.ADVANCE, songg);
 function songg(data){
-    API.chatLog("Woots:  "+data.lastPlay.score.positive+"  Grabs:  "+data.lastPlay.score.grabs+"  Mehs:  "+data.lastPlay.score.negative,1)
-    API.chatLog("DJ: "+data.lastPlay.dj.username,1)
-    API.chatLog(data.lastPlay.media.duration,1)
-    if (localStorage.songTime) {
+        API.chatLog("Woots:  "+data.lastPlay.score.positive+"  Grabs:  "+data.lastPlay.score.grabs+"  Mehs:  "+data.lastPlay.score.negative,1)
+        API.chatLog("DJ: "+data.lastPlay.dj.username,1)
+        API.chatLog(data.lastPlay.media.duration,1)
+     if (localStorage.songTime) {
         localStorage.songTime = parseInt(localStorage.songTime)+counter} 
             else {localStorage.songTime = 1
             }
