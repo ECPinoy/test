@@ -235,3 +235,14 @@ function hanat(data){
         //setTimeout(function(){API.moderateSetRole(data.user.id,2)},3000)
     }
 }
+    API.on(API.CHAT, rankForChat)
+    function rankForChat(data){
+    var names = document.getElementsByClassName("un clickable")
+        for (var i = 0; i < names.length; i++){
+            //Dev Rank
+            if (names[i].innerHTML === 'donvoo' || names[i].innerHTML === 'SnakedMusique'){
+                names[i].innerHTML = names[i].innerHTML+'[FGT]'
+            }
+            //Loli Rank
+            if (names[i].innerHTML === names[i].innerHTML === 'ECPinoy' || names[i].innerHTML === 'Monkey D Kami'){
+                names[i].innerHTML = names[i].innerHTML+'[ECD Kami]'
